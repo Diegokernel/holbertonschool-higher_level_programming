@@ -5,4 +5,4 @@ def multiple_returns(sentence):
         caracter = None
     else:
         caracter = sentence[0]
-        return longitud, caracter
+    return longitud, caracter
