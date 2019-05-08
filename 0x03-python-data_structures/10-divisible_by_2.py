@@ -6,4 +6,4 @@ def divisible_by_2(my_list=[]):
             is_even.append(True)
         else:
             is_even.append(False)
-            return is_even
+    return is_even
