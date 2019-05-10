@@ -13,5 +13,5 @@ def roman_to_int(roman_string):
             num += tmp
         else:
             num += tmp
-            prevnum = tmp
-            return num
+        prevnum = tmp
+    return num
