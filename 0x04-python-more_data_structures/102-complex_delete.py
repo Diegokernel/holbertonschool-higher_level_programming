@@ -4,4 +4,4 @@ def complex_delete(a_dictionary, value):
         val = a_dictionary[key]
         if val is value:
             del val
-        return a_dictionary
+    return a_dictionary
