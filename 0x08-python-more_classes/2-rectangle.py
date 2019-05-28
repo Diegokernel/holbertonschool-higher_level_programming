@@ -33,3 +33,9 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
+
+    def perimeter(self):
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        else:
+            return 2 * (self.__width + self.__height)
