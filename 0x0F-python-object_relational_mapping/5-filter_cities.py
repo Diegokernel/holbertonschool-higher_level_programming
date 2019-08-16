@@ -11,10 +11,11 @@ if __name__ == '__main__':
                     JOIN states ON cities.state_id = states.id \
                     WHERE states.name = %(id)s", {'id': argv[4]})
 
-    ro = cur.fetchall()
+    rows = cur.fetchall()
     ci = []
-    for i in ro:
-        ci.append(i[1])
-    print(*ci, sep=", ")
+    for data in rows:
+        for i in data:
+            ci.append(i)
+    print(', '.join(ci))
     cur.close()
     db.close()
