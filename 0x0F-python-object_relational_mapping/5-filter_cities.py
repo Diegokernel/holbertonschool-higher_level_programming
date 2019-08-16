@@ -14,7 +14,7 @@ if __name__ == '__main__':
     rows = cur.fetchall()
     items = []
     for row in rows:
-        items.append(row[0])
-        print(", ".join(items))
+        cities.append(row[1])
+        print(*items, sep=", ")
     cur.close()
     db.close()
