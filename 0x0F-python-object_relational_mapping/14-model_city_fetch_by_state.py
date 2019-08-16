@@ -13,6 +13,6 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     que = session.query(State.name, City.id, City.name)
-                         .filter(State.id == City.state_id)
+    .filter(State.id == City.state_id)
     for ins in que:
         print(ins[0] + ": (" + str(ins[1]) + ") " + ins[2])
