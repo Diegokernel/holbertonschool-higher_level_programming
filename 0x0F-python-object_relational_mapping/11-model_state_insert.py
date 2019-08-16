@@ -20,6 +20,6 @@ if __name__ == "__main__":
     que = session.query(State).filter(
         State.name == ("Louisiana")).one_or_none()
     if que:
-        print('{}'.format(data.id))
+        print('{}'.format(que.id))
     else:
         print('Not found')
