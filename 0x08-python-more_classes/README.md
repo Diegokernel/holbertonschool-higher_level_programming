@@ -1,38 +1,39 @@
-# 0x0B. Python - Input/Output
----
-## Description
+# Python - More Classes and Objects
 
-This project in the High Level Programming series is about:
-* How to open a file
-* How to write text in a file
-* How to read the full content of a file
-* How to read a file line by line
-* How to move the cursor in a file
-* How to make sure a file is closed after using it
-* What is and how to use the with statement
-* What is JSON
-* What is serialization
-* What is deserialization
-* How to convert a Python data structure to a JSON string
-* How to convert a JSON string to a Python data structure
+### Objective:
+To learn more about how classes and objects work
 
----
-File|Task
----|---
-0-read_file.py | Reads a text file (UTF8) and prints it to stdout
-1-number_of_lines.py | Returns the number of lines of a text file
-2-read_lines.py | Reads n lines of a text file (UTF8) and prints it to stdout
-3-write_file.py | Writes a string to a text file (UTF8) and returns the number of characters written
-4-append_write.py | Appends a string at the end of a text file (UTF8) and returns the number of characters added
-5-to_json_string.py | Returns the JSON representation of an object (string)
-6-from_json_string.py | Returns an object (Python data structure) represented by a JSON string:
-7-save_to_json_file.py | Writes an Object to a text file, using a JSON representation
-8-load_from_json_file.py | Creates an Object from a JSON file
-9-add_item.py | Adds all arguments to a Python list, and then save them to a file
-10-class_to_json.py | Returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object
-11-student.py | Defines a student class by name and age and retrieves a dictionary representation of a Student instance
-12-student.py | Add to to_json method, if attrs is a list of strings, only attributes name contain in this list must be retrieved
-13-student.py | Replaces all attributes of the Student instance
+### Requirements:
+* python3
 
+## 0-rectangle.py
+* write an empty class that defines rectangle
+
+## 1-rectangle.py
+* defines the triangles width and height
+
+## 2-rectanlge.py
+* defines rectanlges area nad perimeter
+
+## 3-rectangle.py
+* prints the rectangle using hashs
+
+## 4-rectangle.py
+* returns a string representation of the rectangle
+
+## 5-rectangle.py
+* delete an instance of the rectangle
+
+## 6-rectangle.py
+* keeps track of the number of instances of the triangle
+
+## 7-rectangle.py
+* 
+
+## 8-rectanlge.py
+* returna biggest rectanlge based on area
+
+## 9-rectangle.py
+* returns a new rectangle instance
 ## Author
 Diego Castellanos
